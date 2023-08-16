@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 // utils/gtag.js
 export const pageview = (url) => {
-  gtag("config", "G-0YC401WZQN", {
+  gtag("config", "G-XXXXXXXXXX", {
     page_path: url,
   });
 };
